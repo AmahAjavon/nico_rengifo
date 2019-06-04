@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+        <script>
+        (function (exports, d) {
+            var _isReady = false,
+                _event,
+                _fns = [];
+
+            function onReady(event) {
+                d.removeEventListener("DOMContentLoaded", onReady);
+                _isReady = true;
+                _event = event;
+                _fns.forEach(function (_fn) {
+                    var fn = _fn[0],
+                        context = _fn[1];
+                    fn.call(context || exports, window.jQuery);
+                });
+            }
+
+            function onReadyIe(event) {
+                if (d.readyState === "complete") {
+                    d.detachEvent("onreadystatechange", onReadyIe);
+                    _isReady = true;
+                    _event = event;
+                    _fns.forEach(function (_fn) {
+                        var fn = _fn[0],
+                            context = _fn[1];
+                        fn.call(context || exports, event);
+                    });
+                }
+            }
+
+            d.addEventListener && d.addEventListener("DOMContentLoaded", onReady) ||
+            d.attachEvent && d.attachEvent("onreadystatechange", onReadyIe);
+
+            function domReady(fn, context) {
+                if (_isReady) {
+                    fn.call(context, _event);
+                }
+
+                _fns.push([fn, context]);
+            }
+
+            exports.mesmerizeDomReady = domReady;
+        })(window, document);
+    </script>
+    <title>Nico Rengifo</title>
+<link rel='dns-prefetch' href='//translate.google.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Nico Rengifo &raquo; Feed" href="/AmahAjavon.github.io/nicorengifo/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Nico Rengifo &raquo; Comments Feed" href="/AmahAjavon.github.io/nicorengifo/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='organic-profile-block-fontawesome-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/organic-profile-block/block/profile/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='companion-bundle-css'   data-href='/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/assets/css/companion.bundle.min.css?ver=1.6.110' type='text/css' media='all' />
+<link rel='stylesheet' id='companion-page-css-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/themes/highlight/customizer/sections/content.css?ver=1.6.110' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='/AmahAjavon.github.io/nicorengifo/wp-includes/css/dist/block-library/style.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='organic-profile-block-frontend-style-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/organic-profile-block/block/profile/style.css?ver=1555651402' type='text/css' media='all' />
+<link rel='stylesheet' id='google-language-translator-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/google-language-translator/css/style.css?ver=5.0.48' type='text/css' media='' />
+<link rel='stylesheet' id='glt-toolbar-styles-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/google-language-translator/css/toolbar.css?ver=5.0.48' type='text/css' media='' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='organic-widgets-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/organic-customizer-widgets/public/css/organic-widgets-public.css?ver=1.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='SFSImainCss-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/ultimate-social-media-icons/css/sfsi-style.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-parent-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/themes/mesmerize/style.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-style-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/themes/highlight/style.min.css?ver=1.0.13' type='text/css' media='all' />
+<style id='mesmerize-style-inline-css' type='text/css'>
+img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
+/** cached kirki style */@media screen and (min-width: 768px){.header{background-position:center center;}}.header-homepage:not(.header-slide).color-overlay:before{background:#000000;}.header-homepage:not(.header-slide) .background-overlay,.header-homepage:not(.header-slide).color-overlay::before{opacity:0.7;}.header-homepage-arrow{font-size:calc( 50px * 0.84 );bottom:20px;background:rgba(255,255,255,0);}.header-homepage-arrow > i.fa{width:50px;height:50px;}.header-homepage-arrow > i{color:#ffffff;}.header-homepage .header-description-row{padding-top:20%;padding-bottom:0%;}.inner-header-description{padding-top:8%;padding-bottom:8%;}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:15%;padding-bottom:15%;}}@media only screen and (min-width: 768px){.header-content .align-holder{width:80%!important;}.inner-header-description{text-align:center!important;}}
+</style>
+<link rel='stylesheet' id='mesmerize-style-bundle-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/themes/mesmerize/assets/css/theme.bundle.min.css?ver=1.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-fonts-css'   data-href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='organic-widgets-fontawesome-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/organic-customizer-widgets/public/css/font-awesome.css?ver=5.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript'>
+    
+        (function () {
+            function setHeaderTopSpacing() {
+
+                setTimeout(function() {
+                  var headerTop = document.querySelector('.header-top');
+                  var headers = document.querySelectorAll('.header-wrapper .header,.header-wrapper .header-homepage');
+
+                  for (var i = 0; i < headers.length; i++) {
+                      var item = headers[i];
+                      item.style.paddingTop = headerTop.getBoundingClientRect().height + "px";
+                  }
+
+                    var languageSwitcher = document.querySelector('.mesmerize-language-switcher');
+
+                    if(languageSwitcher){
+                        languageSwitcher.style.top = "calc( " +  headerTop.getBoundingClientRect().height + "px + 1rem)" ;
+                    }
+                    
+                }, 100);
+
+             
+            }
+
+            window.addEventListener('resize', setHeaderTopSpacing);
+            window.mesmerizeSetHeaderTopSpacing = setHeaderTopSpacing
+            mesmerizeDomReady(setHeaderTopSpacing);
+        })();
+    
+    
+</script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/organic-customizer-widgets/public/js/organic-widgets-public.js?ver=1.3.7'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/organic-customizer-widgets/public/js/jquery.backgroundbrightness.js?ver=5.2.1'></script>
+<link rel='https://api.w.org/' href='/AmahAjavon.github.io/nicorengifo/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/AmahAjavon.github.io/nicorengifo/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/AmahAjavon.github.io/nicorengifo/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel="canonical" href="/AmahAjavon.github.io/nicorengifo/" />
+<link rel='shortlink' href='/AmahAjavon.github.io/nicorengifo/' />
+<link rel="alternate" type="application/json+oembed" href="/AmahAjavon.github.io/nicorengifo/wp-json/oembed/1.0/embed?url=%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/AmahAjavon.github.io/nicorengifo/wp-json/oembed/1.0/embed?url=%2F&#038;format=xml" />
+<style type="text/css">.goog-te-gadget { float:right; clear:right; }#google_language_translator, #language { clear:both; width:160px; text-align:right; }#language { float:right; }#flags { text-align:right; width:165px; float:right; clear:right; }#flags ul { float:right !important; }p.hello { text-align:right; float:right; clear:both; }.glt-clear { height:0px; clear:both; margin:0px; padding:0px; }#flags { width:165px; }#flags a { display:inline-block; margin-left:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator select.goog-te-combo { color:#32373c; }.goog-te-banner-frame{visibility:hidden !important;}body { top:0px !important;}#glt-translate-trigger > span { color:#ffffff; }#glt-translate-trigger { background:#000000; }.goog-te-gadget .goog-te-combo { width:100%; }</style>    <style data-name="header-overlap-with">
+        @media screen and (min-width: 768px) {
+            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .header-homepage {
+                padding-bottom: 95px;
+            }
+
+            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .page-content div[data-overlap]:first-of-type > div:not([class*="section-separator"]) {
+                margin-top: -95px;
+            }
+        }
+    </style>
+    <meta name="specificfeeds-verification-code-dlFYTVBWaXY1bUtTSS9xRmdyVVE1cWllU3Jvb256QTR0YnpqRGlyakdRcElGS2hUM3pxOEVVbDhzaW5GTi9jTTBhNTNENmNPNHd6alBtc1htNXpudFF2V01oR1VXZmNtbG5WVUg1YWRzQTlsSjV1ZGoxM1JtcW1nZVNTRk5UYlV8eWM3M0FCYU4vOCszc2pCOHVKSGJuQnRoQWVJaXFMNGxpQnN4VDdrRFVVbz0=" content="YDs4twwLlxgc9phbCZyC"/><meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" data-name="async-styles">
+        (function () {
+            var links = document.querySelectorAll('link[data-href]');
+            for (var i = 0; i < links.length; i++) {
+                var item = links[i];
+                item.href = item.getAttribute('data-href')
+            }
+        })();
+    </script>
+    <link rel="icon" href="/AmahAjavon.github.io/nicorengifo/wp-content/uploads/2019/04/cropped-posterboy_black-32x32.png" sizes="32x32" />
+<link rel="icon" href="/AmahAjavon.github.io/nicorengifo/wp-content/uploads/2019/04/cropped-posterboy_black-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="/AmahAjavon.github.io/nicorengifo/wp-content/uploads/2019/04/cropped-posterboy_black-180x180.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2019/04/cropped-posterboy_black-270x270.png" />
+    <style id="page-content-custom-styles">
+        [data-id="about--1"] .overlay-box .overlay-box-offset{
+	transform:translate(49%,0%);
+	width:89%;
+	height:110%;
+	z-index:-1;
+
+}
+    </style>
+        <style data-name="background-content-colors">
+        .mesmerize-inner-page .page-content,
+        .mesmerize-inner-page .content,
+        .mesmerize-front-page.mesmerize-content-padding .page-content {
+            background-color: #ffffff;
+        }
+    </style>
+    </head>
+
+<body class="home page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-214 mesmerize-front-page elementor-default mesmerize-content-no-padding">
+
+
+<div id="page-top" class="header-top homepage">
+            <div class="header-top-bar">
+            <div class="">
+                <div class="header-top-bar-inner row middle-xs start-xs">
+                        <div class="header-top-bar-area  col-xs area-left">
+                  <div class="top-bar-field" data-type="group"   data-dynamic-mod="true">
+              <i class="fa fa-map-marker"></i>
+              <span>Medellin, Colombia</span>
+          </div>
+                    <div class="top-bar-field" data-type="group"   data-dynamic-mod="true">
+              <i class="fa fa-envelope"></i>
+              <span>info@posterboymusic.com</span>
+          </div>
+              </div>
+                            <div class="header-top-bar-area  col-xs-fit area-right">
+            <div data-type="group"  data-dynamic-mod="true" class="top-bar-social-icons">
+                      <a target="_blank"  class="social-icon" href="https://open.spotify.com/artist/5xxLU1EEH6Xq6Q0GPMTDq5?si=v4YMuYYtStyupLvGXLylNw">
+                  <i class="fa fa-spotify"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="https://instagram.com/iamnicorengifo">
+                  <i class="fa fa-instagram"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="https://facebook.com/iamnicorengifo">
+                  <i class="fa fa-facebook"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="https://www.youtube.com/channel/UCToo2uD_feffgB8wl3tgm0g">
+                  <i class="fa fa-youtube-square"></i>
+              </a>
+              
+    </div>
+
+        </div>
+                    </div>
+            </div>
+        </div>
+            <div class="navigation-bar homepage" >
+    <div class="navigation-wrapper">
+    	<div class="row basis-auto">
+	        <div class="logo_col col-xs col-sm-fit">
+	            <a class="text-logo" data-type="group"  data-dynamic-mod="true" href="/AmahAjavon.github.io/nicorengifo/">Nico<span style="font-weight: 300;" class="span12"> Rengifo</span></a>	        </div>
+	        <div class="main_menu_col col-xs">
+	            <div id="mainmenu_container" class="row"><ul id="main_menu" class="active-line-bottom main-menu dropdown-menu"><li id="menu-item-219" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-219"><a href="/AmahAjavon.github.io/nicorengifo/#page-top" aria-current="page">Home</a></li>
+<li id="menu-item-220" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-220"><a href="/AmahAjavon.github.io/nicorengifo/#social-media" aria-current="page">Social Media</a></li>
+<li id="menu-item-224" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-224"><a href="/AmahAjavon.github.io/nicorengifo/#bio" aria-current="page">Bio</a></li>
+<li id="menu-item-228" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-228"><a href="/AmahAjavon.github.io/nicorengifo/#contact-1" aria-current="page">Contact</a></li>
+</ul></div>    <a href="#" data-component="offcanvas" data-target="#offcanvas-wrapper" data-direction="right" data-width="300px" data-push="false">
+        <div class="bubble"></div>
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="offcanvas-wrapper" class="hide force-hide  offcanvas-right">
+        <div class="offcanvas-top">
+            <div class="logo-holder">
+                <a class="text-logo" data-type="group"  data-dynamic-mod="true" href="/AmahAjavon.github.io/nicorengifo/">Nico<span style="font-weight: 300;" class="span12"> Rengifo</span></a>            </div>
+        </div>
+        <div id="offcanvas-menu" class="menu-main-menu-container"><ul id="offcanvas_menu" class="offcanvas_menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-219"><a href="/AmahAjavon.github.io/nicorengifo/#page-top" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-220"><a href="/AmahAjavon.github.io/nicorengifo/#social-media" aria-current="page">Social Media</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-224"><a href="/AmahAjavon.github.io/nicorengifo/#bio" aria-current="page">Bio</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-228"><a href="/AmahAjavon.github.io/nicorengifo/#contact-1" aria-current="page">Contact</a></li>
+</ul></div>
+            </div>
+    	        </div>
+	    </div>
+    </div>
+</div>
+</div>
+
+
+<div id="page" class="site">
+
+            <div class="header-wrapper">
+            <div  class='header-homepage  color-overlay  cp-video-bg' style='; min-height:100vh'>
+                                        <script>
+            // resize the poster image as fast as possible to a 16:9 visible ratio
+            var mesmerize_video_background = {
+                getVideoRect: function () {
+                    var header = document.querySelector(".cp-video-bg");
+                    var headerWidth = header.getBoundingClientRect().width,
+                        videoWidth = headerWidth,
+                        videoHeight = header.getBoundingClientRect().height;
+
+                    videoWidth = Math.max(videoWidth, videoHeight);
+
+                    if (videoWidth < videoHeight * 16 / 9) {
+                        videoWidth = 16 / 9 * videoHeight;
+                    } else {
+                        videoHeight = videoWidth * 9 / 16;
+                    }
+
+                    videoWidth *= 1.2;
+                    videoHeight *= 1.2;
+
+                    var marginLeft = -0.5 * (videoWidth - headerWidth);
+
+                    return {
+                        width: Math.round(videoWidth),
+                        height: Math.round(videoHeight),
+                        left: Math.round(marginLeft)
+                    }
+                },
+
+                resizePoster: function () {
+//                        debugger;
+                    var posterHolder = document.querySelector('#wp-custom-header');
+
+                    var size = mesmerize_video_background.getVideoRect();
+                    posterHolder.style.backgroundSize = size.width + 'px auto';
+                    posterHolder.style.backgroundPositionX = size.left + 'px';
+                    posterHolder.style.minHeight = size.height + 'px';
+
+
+                }
+
+            };
+
+        </script>
+        <div id="wp-custom-header" class="wp-custom-header cp-video-bg"></div>
+        <style>
+            .header-wrapper {
+                background: transparent;
+            }
+
+            div#wp-custom-header.cp-video-bg {
+                background-image: url('/AmahAjavon.github.io/nicorengifo/wp-content/uploads/2019/04/EstamosBien_pic_2560x1440.jpg');
+                background-color: #000000;
+                background-position: center top;
+                background-size: cover;
+                position: absolute;
+                z-index: -3;
+                height: 100%;
+                width: 100%;
+                margin-top: 0;
+                top: 0px;
+                -webkit-transform: translate3d(0, 0, -2px);
+            }
+
+            .header-homepage.cp-video-bg,
+            .header.cp-video-bg {
+                background-color: transparent !important;
+                overflow: hidden;
+            }
+
+            div#wp-custom-header.cp-video-bg #wp-custom-header-video {
+                object-fit: cover;
+                position: absolute;
+                opacity: 0;
+                width: 100%;
+                transition: opacity 0.4s cubic-bezier(0.44, 0.94, 0.25, 0.34);
+            }
+
+            div#wp-custom-header.cp-video-bg button#wp-custom-header-video-button {
+                display: none;
+            }
+        </style>
+        <script type="text/javascript">
+            setTimeout(mesmerize_video_background.resizePoster, 0);
+        </script>
+                        
+    <div class="header-description gridContainer content-on-center">
+        <div class="row header-description-row middle-sm">
+    <div class="header-content header-content-centered col-md col-xs-12">
+        <div class="align-holder center">
+            <p class="header-subtitle">Check out Nico's music on his social media links</p><div data-dynamic-mod-container class="header-buttons-wrapper"><a class="button big color1 round" target="_self" href="#social-media" >Music</a><a class="button big color-white round outline" target="_self" href="#contact-1" >Contact</a></div>        </div>
+    </div>
+</div>
+    </div>
+    
+        <script>
+        window.mesmerizeSetHeaderTopSpacing();
+    </script>
+                    
+                                        <div class="header-homepage-arrow-c" >
+            <span class="header-homepage-arrow move-down-bounce"> <i class="fa arrow fa-angle-down" aria-hidden="true"></i>
+            </span>
+        </div>
+                    </div>
+        </div>
+        
+    <div class="page-content">
+        <div class="content">
+            <div  id="social-media" style="background-color: rgb(255, 255, 255); background-image: none;" data-label="Social Media" data-id="features-ov-4-mc" data-export-id="features-ov-4-mc" data-category="features" class="features-ov-4-mc content-section content-section-spacing"><div  class="gridContainer"> <div  data-type="row" class="row spaced-cols text-center"> <div  class="col-xs-12 col-sm-4 col-padding col-md-3"> <a  data-cp-link="1" href="https://open.spotify.com/artist/5xxLU1EEH6Xq6Q0GPMTDq5?si=MlNz_RXjSYyaUEalUd5cvw" target="_self" class=""><i  class="fa icon shadow-large-black aligncenter color2 fa-spotify reverse round large"></i></a> <div  data-type="column" class=""><h5  class="font-400">SPOTIFY</h5> </div> </div> <div  class="col-xs-12 col-sm-4 col-padding col-md-3"> <a  data-cp-link="1" href="https://instagram.com/iamnicorengifo" target="_self" class=""><i  class="fa icon shadow-large-black aligncenter color4 fa-instagram reverse round large"></i></a> <div  data-type="column" class=""><h5  class="font-400">INSTAGRAM</h5> </div> </div><div  class="col-xs-12 col-sm-4 col-padding col-md-3"> <a  data-cp-link="1" href="https://facebook.com/iamnicorengifo" target="_self" class=""><i  class="fa icon shadow-large-black aligncenter color1 fa-facebook reverse round large"></i></a> <div  data-type="column" class=""> <h5  class="font-400">FACEBOOK</h5> </div> </div><div  class="col-xs-12 col-sm-4 col-padding col-md-3"> <a  data-cp-link="1" href="https://www.youtube.com/channel/UCToo2uD_feffgB8wl3tgm0g" target="_self" class=""><i  class="fa icon shadow-large-black aligncenter color2 fa-youtube reverse round large"></i></a> <div  data-type="column" class=""><h5  class="font-400">YOUTUBE</h5> </div> </div></div> </div></div><div  data-label="Bio" data-id="about--1" data-export-id="about-9" data-category="about" class="about-9 content-section content-section-spacing" id="bio" style="background-color: rgb(245, 250, 253); background-image: none;" data-bullets-visibility="true"><div  class="gridContainer"> <div  class="row middle-sm text-center"><div  class="col-sm-5 space-bottom-xs content-column content-left-sm" data-type="column"> <h5  class="">NICO BIOGRAPHY&nbsp;</h5>   <p  class="">Nicolas Rengifo known as Nico Rengifo was born in Cúcuta, Colombia on April 22, 1999. At a very young age he moved to the notorious city of Medellín where he spent most of his upbringing. At the age of 9 he found inspiration in music and started creating his first melodies. A few years later, after soaking up to his musically inclined environment and studying the great musicians of his era and beyond, he taught himself how to play the piano and the guitar. Music became his medicine as he went through life events where him and his family spent time on the road and refugee camps…</p><a  class="button blue" href="/AmahAjavon.github.io/nicorengifo/full-bio" target="_self" data-cp-link="1">View full bio</a></div> <div  class="col-sm-7 flexbox flexbox middle-xs center-xs space-bottom-xs"><div  class="overlay-box flexbox middle-xs center-xs overlay-holder"> <div  class="overlay-box-offset offset-background shadow-medium bg-color2 hide-xs"></div> <img  class="flexbox shadow-large img1" src="/AmahAjavon.github.io/nicorengifo/wp-content/uploads/2019/04/cropped-nico_pic2.jpg" data-size="600x400" alt="" title="cropped-nico_pic2.jpg"></div> </div></div> </div></div><div  id="contact-1" style="background-color: #ffffff;" data-label="Contact" data-id="contact-1-mc" data-export-id="contact-1-mc" data-bullets-visibility="true" data-category="contact" class="contact-1-mc content-section content-section-spacing white-text" data-parallax-depth="20"><div  class="gridContainer"> <div  class="row text-center"><div  class="section-title-col" data-type="column">  <h2  class="">Contact Nico</h2> <p  class="lead">For booking, promotion, shows, songwriting, collaboration, or all other inquiries contact:
+<br >promo@posterboymusic</p></div> </div> <div  class="row text-center"> <div  class="col-xs-12 col-sm-8 col-sm-offset-2 contact-form-wrapper inline-info"> <div  class="card large-padding"> <div  class="" data-content-shortcode="mesmerize_contact_form shortcode=&quot;wpforms id=&amp;amp;quot;105&amp;amp;quot; title=&amp;amp;quot;false&amp;amp;quot; description=&amp;amp;quot;false&amp;amp;quot;&quot;" data-editable="true"><div class="wpforms-container wpforms-container-full" id="wpforms-105"><form id="wpforms-form-105" class="wpforms-validate wpforms-form" data-formid="105" method="post" enctype="multipart/form-data" action="/AmahAjavon.github.io/nicorengifo/"><div class="wpforms-field-container"><div id="wpforms-105-field_1-container" class="wpforms-field wpforms-field-name" data-field-id="1"><label class="wpforms-field-label" for="wpforms-105-field_1">Name <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-105-field_1" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][1]" required></div><div id="wpforms-105-field_2-container" class="wpforms-field wpforms-field-email" data-field-id="2"><label class="wpforms-field-label" for="wpforms-105-field_2">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-105-field_2" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][2]" required></div><div id="wpforms-105-field_3-container" class="wpforms-field wpforms-field-textarea" data-field-id="3"><label class="wpforms-field-label" for="wpforms-105-field_3">Message <span class="wpforms-required-label">*</span></label><textarea id="wpforms-105-field_3" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][3]" required></textarea></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-105-field-hp" class="wpforms-field-label">Email</label><input type="text" name="wpforms[hp]" id="wpforms-105-field-hp" class="wpforms-field-medium"></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="105"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="214"><button type="submit" name="wpforms[submit]" class="wpforms-submit" id="wpforms-submit-105" value="wpforms-submit" data-alt-text="Sending...">Submit</button></div></form></div></div></div> </div></div> </div></div><p ></p><p></p>        </div>
+    </div>
+
+	<div  class='footer footer-simple'>
+    <div  class='footer-content center-xs'>
+        <div class="gridContainer">
+	        <div class="row middle-xs footer-content-row">
+	            <div class="footer-content-col col-xs-12">
+	                    <p  class="copyright">&copy;&nbsp;&nbsp;2019&nbsp;Nico Rengifo.&nbsp;Built using WordPress and the <a target="_blank" href="https://extendthemes.com/go/built-with-highlight/" class="mesmerize-theme-link">Highlight Theme</a></p>	            </div>
+	        </div>
+	    </div>
+    </div>
+</div>
+	</div>
+<div id="glt-translate-trigger"><span class="translate">Translate »</span></div><div id="glt-toolbar"></div><div id="flags" style="display:none" class="size18"><ul id="sortable" class="ui-sortable"><li id="English"><a title="English" class="nturl notranslate en flag united-states"></a><li id="Portuguese"><a title="Portuguese" class="nturl notranslate pt flag Portuguese"></a><li id="Spanish"><a title="Spanish" class="nturl notranslate es flag Spanish"></a><li id="Swedish"><a title="Swedish" class="nturl notranslate sv flag Swedish"></a></ul></div><div id='glt-footer'><div id="google_language_translator" class="default-language-en"></div></div><script>function GoogleLanguageTranslatorInit() { new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages:'en,pt,es,sv', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, multilanguagePage:true}, 'google_language_translator');}</script><!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "/wp-admin/admin-ajax.php";
+</script>
+        <!--facebook like and share js -->
+        <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+		  	if (d.getElementById(id)) return;
+		  	js = d.createElement(s); js.id = id;
+		  	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		  	fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<!--<div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1425108201100352&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>-->
+ 			<!-- twitter JS End -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+	             <script>
+                jQuery( document ).scroll(function( $ )
+                {
+                    var y = jQuery(this).scrollTop();
+            
+                    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+                    {    
+                       if(jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height()-100)
+                       {
+                          jQuery('.sfsi_outr_div').css({'z-index':'9996',opacity:1,top:jQuery(window).scrollTop()+"px",position:"absolute"});
+                          jQuery('.sfsi_outr_div').fadeIn(200);
+                          jQuery('.sfsi_FrntInner_chg').fadeIn(200);
+                       }
+                       else{
+                           jQuery('.sfsi_outr_div').fadeOut();
+                           jQuery('.sfsi_FrntInner_chg').fadeOut();
+                       }
+                  }
+                  else
+                  {
+                       if(jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height()-3)
+                       {
+                            jQuery('.sfsi_outr_div').css({'z-index':'9996',opacity:1,top:jQuery(window).scrollTop()+200+"px",position:"absolute"});
+                            jQuery('.sfsi_outr_div').fadeIn(200);
+                            jQuery('.sfsi_FrntInner_chg').fadeIn(200);
+                       }
+                       else
+                       {
+                         jQuery('.sfsi_outr_div').fadeOut();
+                         jQuery('.sfsi_FrntInner_chg').fadeOut();
+                       }
+                  } 
+                });
+             </script>
+                	<script>
+			jQuery(document).ready(function(e) {
+                jQuery("body").addClass("sfsi_2.20")
+            });
+			function sfsi_processfurther(ref) {
+				var feed_id = 'dlFYTVBWaXY1bUtTSS9xRmdyVVE1cWllU3Jvb256QTR0YnpqRGlyakdRcElGS2hUM3pxOEVVbDhzaW5GTi9jTTBhNTNENmNPNHd6alBtc1htNXpudFF2V01oR1VXZmNtbG5WVUg1YWRzQTlsSjV1ZGoxM1JtcW1nZVNTRk5UYlV8eWM3M0FCYU4vOCszc2pCOHVKSGJuQnRoQWVJaXFMNGxpQnN4VDdrRFVVbz0=';
+				var feedtype = 8;
+				var email = jQuery(ref).find('input[name="data[Widget][email]"]').val();
+				var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				if ((email != "Enter your email") && (filter.test(email))) {
+					if (feedtype == "8") {
+						var url ="https://www.specificfeeds.com/widgets/subscribeWidget/"+feed_id+"/"+feedtype;
+						window.open('', "popupwindow", "scrollbars=yes,width=1080,height=760");
+						ref.action=url;
+						ref.target="popupwindow";
+						return true;
+					}else{
+						return false
+					}
+				} else {
+					alert("Please enter email address");
+					jQuery(ref).find('input[name="data[Widget][email]"]').focus();
+					return false;
+				}
+			}
+		</script>
+        <style type="text/css" aria-selected="true">
+			.sfsi_subscribe_Popinner
+			{
+								width: 100% !important;
+				height: auto !important;
+												padding: 18px 0px !important;
+				background-color: #ffffff !important;
+			}
+			.sfsi_subscribe_Popinner form
+			{
+				margin: 0 20px !important;
+			}
+			.sfsi_subscribe_Popinner h5
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-weight: bold !important;
+								color: #000000 !important;
+				font-size: 16px !important;
+				text-align: center !important;
+				margin: 0 0 10px !important;
+    			padding: 0 !important;
+			}
+			.sfsi_subscription_form_field {
+				margin: 5px 0 !important;
+				width: 100% !important;
+				display: inline-flex;
+				display: -webkit-inline-flex;
+			}
+			.sfsi_subscription_form_field input {
+				width: 100% !important;
+				padding: 10px 0px !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color: #000000 !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+			   	font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color: #000000 !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]:-moz-placeholder { /* Firefox 18- */
+			    font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color: #000000 !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {  /* Firefox 19+ */
+			    font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color: #000000 !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {  
+			  	font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color: #000000 !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=submit]
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-weight: bold !important;
+								color: #000000 !important;
+				font-size: 16px !important;
+				text-align: center !important;
+				background-color: #dedede !important;
+			}
+		</style>
+	
+        <div id="side-navigation" class="side-navigation">
+            
+            
+            <ul data-type="active" data-preset="preset-2" data-after-scroll="true">
+                <li class="hero-bullet">
+                    <a href="#page-top">Top</a>
+                </li>
+            </ul>
+        </div>
+        
+        <link rel='stylesheet' id='wpforms-full-css'  href='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.css?ver=1.5.2.2' type='text/css' media='all' />
+<script type='text/javascript'  defer="defer" src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/assets/js/companion.bundle.min.js?ver=1.6.110'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/google-language-translator/js/scripts.js?ver=5.0.48'></script>
+<script type='text/javascript' src='//translate.google.com/translate_a/element.js?cb=GoogleLanguageTranslatorInit'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.js?ver=5.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sfsi_icon_ajax_object = {"ajax_url":"\/wp-admin\/admin-ajax.php"};
+var sfsi_icon_ajax_object = {"ajax_url":"\/wp-admin\/admin-ajax.php","plugin_url":"\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/ultimate-social-media-icons/js/custom.js?ver=5.2.1'></script>
+<script type='text/javascript'  defer="defer" src='/AmahAjavon.github.io/nicorengifo/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript'  defer="defer" src='/AmahAjavon.github.io/nicorengifo/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript'  defer="defer" src='/AmahAjavon.github.io/nicorengifo/wp-content/themes/mesmerize/assets/js/theme.bundle.min.js?ver=1.0.13'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/themes/highlight/assets/js/theme-child.js'></script>
+<script type='text/javascript'  defer="defer" src='/AmahAjavon.github.io/nicorengifo/wp-includes/js/wp-embed.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-includes/js/wp-a11y.min.js?ver=5.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpCustomHeaderSettings = {"mimeType":"video\/x-youtube","videoUrl":"https:\/\/www.youtube.com\/watch?v=uXpBbFFqy0I","posterUrl":"\/wp-content\/uploads\/2019\/04\/EstamosBien_pic_2560x1440.jpg","width":"1920","height":"800","minWidth":"768","minHeight":"300","l10n":{"pause":"Pause","play":"Play","pauseSpeak":"Video is paused.","playSpeak":"Video is playing."}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-includes/js/wp-custom-header.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/themes/mesmerize/assets/js/video-bg.js?ver=5.2.1'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/wpforms-lite/assets/js/jquery.validate.min.js?ver=1.19.0'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/wpforms-lite/assets/js/mailcheck.min.js?ver=1.1.2'></script>
+<script type='text/javascript' src='/AmahAjavon.github.io/nicorengifo/wp-content/plugins/wpforms-lite/assets/js/wpforms.js?ver=1.5.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpforms_settings = {"val_required":"This field is required.","val_url":"Please enter a valid URL.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_number":"Please enter a valid number.","val_confirm":"Field values do not match.","val_fileextension":"File type is not allowed.","val_filesize":"File exceeds max size allowed.","val_time12h":"Please enter time in 12-hour AM\/PM format (eg 8:45 AM).","val_time24h":"Please enter time in 24-hour format (eg 22:45).","val_requiredpayment":"Payment is required.","val_creditcard":"Please enter a valid credit card number.","val_smart_phone":"Please enter a valid phone number.","val_post_max_size":"The total size of the selected files {totalSize} Mb exceeds the allowed limit {maxSize} Mb.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","post_max_size":"33554432","uuid_cookie":"","locale":"en","wpforms_plugin_url":"\/wp-content\/plugins\/wpforms-lite\/","gdpr":""}
+/* ]]> */
+</script>
+</body>
+</html>

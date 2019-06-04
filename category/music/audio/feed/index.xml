@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>audio &#8211; Nico Rengifo</title>
+	<atom:link href="http://nicorengifo.com/category/music/audio/feed/" rel="self" type="application/rss+xml" />
+	<link>/AmahAjavon.github.io/nicorengifo/</link>
+	<description></description>
+	<lastBuildDate>Mon, 22 Apr 2019 02:50:32 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.1</generator>
+
+<image>
+	<url>/AmahAjavon.github.io/nicorengifo/wp-content/uploads/2019/04/cropped-posterboy_black-32x32.png</url>
+	<title>audio &#8211; Nico Rengifo</title>
+	<link>/AmahAjavon.github.io/nicorengifo/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Nico Rengifo &#8211; Nadie como tu</title>
+		<link>/AmahAjavon.github.io/nicorengifo/2019/04/22/nico-rengifo-nadie-como-tu/</link>
+				<comments>/AmahAjavon.github.io/nicorengifo/2019/04/22/nico-rengifo-nadie-como-tu/#respond</comments>
+				<pubDate>Mon, 22 Apr 2019 02:50:32 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[audio]]></category>
+		<category><![CDATA[spotify]]></category>
+		<category><![CDATA[escribiendohistorias]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[nadie como tu]]></category>
+
+		<guid isPermaLink="false">/AmahAjavon.github.io/nicorengifo/?p=137</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-embed-spotify wp-block-embed is-type-rich is-provider-spotify wp-embed-aspect-9-16 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class='embed-container'><iframe title="Spotify Embed: #escribiendohistorias" width="300" height="380" allowtransparency="true" frameborder="0" allow="encrypted-media" src="https://open.spotify.com/embed/playlist/6Pq9CjMnWRgytvcqdVuE0r?si=o6GH2gl4RLOkHQGxp3STCQ"></iframe></div>
+</div></figure>
+<p></p>]]></content:encoded>
+							<wfw:commentRss>/AmahAjavon.github.io/nicorengifo/2019/04/22/nico-rengifo-nadie-como-tu/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
